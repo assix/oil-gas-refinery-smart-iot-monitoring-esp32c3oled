@@ -43,6 +43,6 @@ temperature sensors (e.g., DS18B20 or PT100) connected directly to the device's 
 
 ## 🚀 Getting Started
 1. **Clone the Repo:** `git clone https://github.com/assix/oil-gas-refinery-smart-iot-monitoring-esp32c3oled.git`
-2. **Open in Arduino IDE:** Open the `src/RefineryGuardian/RefineryGuardian.ino` file.
+2. **Open in Arduino IDE:** Open the `SmartRefineryThermaMonitor.ino` file.
 3. **Install Dependencies:** `U8g2lib`, `ArduinoJson`, `Adafruit_NeoPixel`.
 4. **Flash:** Target your ESP32-C3 Dev Module.

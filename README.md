@@ -7,11 +7,11 @@ It features geofenced thermal monitoring for critical refinery stations, a cinem
 
 | Hardware Overview | Pinout & Interface |
 | :---: | :---: |
-| ![Hardware Overview](images/hardware_overview.png) | ![Pinout Diagram](images/pinout_diagram.jpg) |
+| ![Hardware Overview](images/hardware_overview.png) | ![Pinout Diagram](images/pinout_diagram.png) |
 
 | Live Monitoring State | Fail-Safe (Demo) State |
 | :---: | :---: |
-| ![Live Data](images/live_data_view.jpg) | ![Demo Mode](images/demo_mode_view.jpg) |
+| ![Live Data](images/live_data_view.jpeg) | ![Demo Mode](images/demo_mode_view.jpeg) |
 
 ---
 

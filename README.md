@@ -9,7 +9,7 @@ It features geofenced thermal monitoring for critical refinery stations, a cinem
 | :---: | :---: |
 | <img src="images/hardware_overview.png" width="400" alt="Hardware Overview"> | <img src="images/pinout_diagram.png" width="400" alt="Pinout Diagram"> |
 
-| Live Monitoring State | Fail-Safe (Demo) State |
+| Live Monitoring State | Demo mode (no WiFi) State |
 | :---: | :---: |
 | <img src="images/live_data_view.jpeg" width="400" alt="Live Data"> | <img src="images/demo_mode_view.jpeg" width="400" alt="Demo Mode"> |
 

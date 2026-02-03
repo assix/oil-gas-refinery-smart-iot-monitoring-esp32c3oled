@@ -11,7 +11,7 @@ It features geofenced thermal monitoring for critical refinery stations, a cinem
 
 | Live Monitoring State | Demo mode (no WiFi) State |
 | :---: | :---: |
-| <img src="images/live_data_view.jpeg" width="400" alt="Live Data"> | <img src="images/demo_mode_view.jpeg" width="400" alt="Demo Mode"> |
+| <img src="images/live_data_view_.jpeg" width="400" alt="Live Data"> | <img src="images/demo_mode_view_.jpeg" width="400" alt="Demo Mode"> |
 
 ---
 

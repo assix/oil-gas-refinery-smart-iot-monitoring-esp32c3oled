@@ -16,7 +16,13 @@ It features geofenced thermal monitoring for critical refinery stations, a cinem
 ---
 
 ## 🛠 Project Overview
-This node monitors ambient thermal conditions for specific refinery coordinates in the **Ruwais Industrial City**. It is designed to demonstrate **Tier-2 Redundancy**: if the local WiFi (`xeroxprinter`) is unavailable, the system automatically pivots from cloud-synchronized data to pre-defined industrial baselines.
+This IIoT (Industrial Internet of Things) edge node is engineered for high-precision ambient thermal monitoring at critical refinery coordinates, such as those within the Ruwais Industrial City. The system serves as a specialized implementation of Tier-2 Redundancy, designed to ensure continuous operational visibility in harsh or remote environments.
+
+Resilient Architecture & Failover
+The node maintains a persistent link to cloud-synchronized meteorological data via the Open-Meteo API. In the event of a network disruption—where the local WiFi becomes unavailable—the system executes an automated failover protocol. It instantly pivots from live API polling to pre-defined industrial baselines, ensuring that thermal monitoring remains active even in completely offline states.
+
+```Engineering Note: While this POC utilizes API data for geofenced environmental awareness, production deployments are designed to prioritize real-time telemetry from local temperature sensors (e.g., DS18B20 or PT100) connected directly to the device's GPIO.
+```
 
 ### Key Features
 * **Geofenced Data Acquisition:** Hardcoded coordinates for **Oil Refinery Stations 405, 406, and 407**.
